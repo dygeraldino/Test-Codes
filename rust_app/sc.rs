@@ -36,5 +36,5 @@ fn main() {
     let primes_string: String = primes.iter().map(|p| p.to_string() + "\n").collect();
     file.write_all(primes_string.as_bytes()).expect("No se pudo escribir en el archivo");
 
-    println!("Tiempo: {} ms", duration.as_millis());
+    println!("{}", duration.as_millis());
 }
