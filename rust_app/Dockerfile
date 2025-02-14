@@ -1,8 +1,8 @@
 FROM rust:1.84-slim-bookworm
 
-WORKDIR /rust_app
+WORKDIR /rs_app
 
-COPY . /rust_app
+COPY . /rs_app
 
 RUN rustc sc.rs -o sc
 
