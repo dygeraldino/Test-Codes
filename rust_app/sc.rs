@@ -22,7 +22,7 @@ fn sieve_of_eratosthenes(n: usize) -> Vec<usize> {
 }
 
 fn main() {
-    let n = 1_000_000; // Ajusta este valor según sea necesario
+    let n = 100_000_000; // Ajusta este valor según sea necesario
     let start_time = Instant::now();
     let primes = sieve_of_eratosthenes(n);
     let total: usize = primes.iter().sum();
