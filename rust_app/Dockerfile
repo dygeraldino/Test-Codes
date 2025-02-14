@@ -1,4 +1,4 @@
-FROM rust:1.84.1-slim-bookworm
+FROM rust:1.84-slim-bookworm
 
 WORKDIR /rust_app
 
